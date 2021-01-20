@@ -1,0 +1,124 @@
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Realme LED Smart Android TV",3,"Bring home this TV from realme and experience the stunning visuals that result from its Chroma Boost Picture Engine.",14999,13999,"tv1.jpg");
+
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Samsung LED Smart TV ",3,"ake your entertainment to the next level with this Samsung TV. With the Content Guide on this TV, you now have access to content from the top-rated TV shows. ",19900,16299,"tv2.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Kodak LED Smart Android Tv ",3,"Give a twist to your home entertainment experience by bringing home the Kodak Android TV",13999,12999,"Tv3.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Mi 4A Pro LED Smart Android TV ",3,"There is no fun in watching your favourite movie or show on a TV where the display quality is poor.",25999,23999,"Tv4.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("LG Ultra HD (4K) LED Smart TV",3,"The LG Ultra HD LED Smart TV comes with a 4K IPS display that lets you enjoy your content in its finest details.",52999,34999,"Tv5.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Sony Bravia Ultra HD (4K) LED Smart TV",3,"Sony’s 4K picture processing technology enhances each pixel so that you can see every detail irrespective of the type of content that you’re watching on this TV.",66999,39999,"Tv6.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Nokia Full HD LED Smart Android TV",3,"Bring home this TV from Nokia and deep-dive into a world of lifelike colours.",39999,22999,"Tv7.jpg");
+
+ insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("MarQ Innoview Smart Android TV",3,"Binge-watching your favourite TV shows or watching a blockbuster movie with your family",26999,22999,"Tv8.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("PhilipsSmart Android TV",3,"Watching your favourite TV shows or watching a blockbuster movie with your family",55999,22999,"Tv9.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Sony Full HD Android TV",3,"1U [ Including - Warranty card, AC Adapter , AC Power cord, Remote Control , Table - top stand , User manual - 1 U each , batteries - 2 U ]",59999,29999,"Tv10.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Sony Full HD Android TV",3,"1U [ Including - Warranty card, AC Adapter , AC Power cord, Remote Control , Table - top stand , User manual - 1 U each , batteries - 2 U ]",59999,29999,"Tv10.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Fujifilm X Series X-T200",4,"1 Camera, 15-45 mm Lens, Li-ion Battery NP-W126S, USB Cable, Headphone Adapter, Shoulder Strap, Body Cap, User Manual",59999,29999,"Cam1.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Sony CyberShot DSC-W800",4,"Wrist Strap, AC Adaptor AC-UB10C, Multi USB Cable, Instruction Manual, Rechargeable Battery Pack NP-BN*7
+",45999,29999,"Cam2.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Canon IXUS 285 HS ",4,"8 GB Card, USB Cable, Pouch, Warranty Card, Wrist Strap, Battery, Battery Charger",35999,26999,"Cam3.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Canon IXUS 190 ",4,"Let your imagination go wild with the Canon IXUS 190 Point and Shoot camera. Equipped with a 20.0-megapixel sensor and 10x optical zoom",30999,29999,"Cam4.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Canon EOS 200D II DSLR",4,"s photography one of your passions? Bring home this EOS 200D II from Canon. This is Canon’s lightest DSLR that features a vari-angle LCD touch screen",39999,36999,"Cam5.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Sony Cyber-shot DSC",4,"8 GB Card, USB Cable, Pouch, Warranty Card, Wrist Strap, Battery, Battery Charger",36999,30999,"Cam6.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Canon IXUS 190",4,"20 MP, 10x Optical Zoom, 10x Digital Zoom, Silver",31999,28999,"Cam7.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Sony Alpha ILCE-6400M",4,"Mirrorless Camera with 18-135mm Zoom Lens  (Black)",45999,42999,"Cam8.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Nikon A 900",4,"20 MP, 35x Optical Zoom, 4x Digital Zoom, Black",49999,46999,"Cam9.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Sony Alpha 7M3K",4,"Mirrorless Camera Body with 28 - 70 mm Zoom Lens  (Black)",79999,73999,"Cam10.jpg");
+
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values
+
+("Kids White & Blue Striped Sleepsuit",7,"White and blue striped sleepsuit with embroidered detail, has a round neck, long sleeves, snap button closure and attached booties",450,400,"children1.jpg"),
+
+("Girls Coral Orange & White Striped A-Line Dress",7,"Coral orange and white striped woven a-line dress, has a round neck, short sleeves, button closure, and flared hem",250,200,"children2.jpg"),
+
+("Girls Peach-Coloured Fit and Flare Dress",7,"Peach-Coloured printed woven fit and flare dress, has a round neck, short sleeves, concealed zip closure, and flared hem",400,300,"children3.jpg"),
+
+("Boy's Navy Blue Logo Short Sleeve T-Shirt",7,"Soft weave Short sleeves Crew neck
+Logo at front",699,599,"children4.jpg"),
+
+("Girls Peach-Coloured & Burgundy Printed Ready to Wear Lehenga & Blouse with Dupatta",7,"Peach-Coloured and burgundy lehenga choli with dupatta
+Burgundy and gold-coloured blouse, short sleeves
+Peach-Coloured and gold-coloured ready to wear lehenga, flared hem
+Peach-Coloured solid dupatta with embroidered border",1199,999,"children5.jpg"),
+
+("Boys Blue Washed Regular Fit Denim Shorts",7,"Blue washed mid-rise denim shorts, has 5 pockets, and drawstring closure",199,99,"children6.jpg"),
+
+("Kids White & Blue Striped Sleepsuit",7,"White and blue striped sleepsuit with embroidered detail, has a round neck, long sleeves, snap button closure and attached booties",499,399,"children7.jpg"),
+
+("Girls Blue Solid Dungaree",7,"Girls blue solid denim dungaree",999,799,"children8.jpg"),
+
+("Kids White & Blue Striped SleepsuitGirls Navy Blue Disney's DISNEY FROZEN Printed Night suit",7,"Navy Blue night suit consists of t-shirt and pyjamas
+Navy Blue printed t-shirt, has a round neck, long sleeves
+A pair of navy blue solid pyjamas, has slip-on closure",399,299,"children9.jpg"),
+
+("Girls Pink Printed Hooded Sweatshirt",7,"Pink printed sweatshirt Has a hood Two pockets Long sleeves Zip closure Straight hem",799,599,"children10.jpg");
+
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Hoodie with Cap",5,"Red Color with Warm feel",700,500,"men1.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Joggers",5,"Green color Jogger",800,700,"men2.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Nawabi",5,"Black Nawabi for Groom",2500,1999,"men3.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Red Kurta",5,"Red Kurta for Wedding",3000,2599,"men4.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Grey T-shirt",5,"Nice T-shirts for Home Use",500,350,"men5.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Military T-Shirt",5,"Military T-shirts for Home Use",500,350,"men6.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Red Jacket with Trouser",5,"Red Jacket for functional use",3000,2700,"men7.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("White Shirt",5,"White Shirt for functional use",1200,1000,"men8.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Kathiyawad Silver Kurta",5,"Silver Kurta for functional use",3000,2800,"men9.jpg");
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Kathiyawad Silver Kurta",5,"Silver Kurta for functional use",3000,2800,"men10.jpg");
+
+
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values
+
+("Women Black & Golden Gotta Patti Detail Pure Cotton Straight Kurta",6,"Black solid kurta, the gotta patti detail adds a touch of glam to your look, this kurta has all your favorite details! By teaming wedge heels and golden earrings with this lovely set, you've created a charming look in nearly no time at all. Bravo!",799,699,"women1.jpg"),
+
+("Teal & Beige Art Silk Embroidered Saree",6,"The model is wearing a blouse from our stylist's collection, see the image for a mock-up of what the actual blouse would look like",1199,999,"women2.jpg"),
+
+("Women Olive Green Solid Padded Jacket",6,"Olive green solid padded jacket, has a mock collar, 2 pockets, zip closure, long sleeves, straight hem, and cotton lining",450,400,"women3.jpg"),
+
+("Muted Hazelnut Geometric Yoke Kurta Set",6,"White and blue striped sleepsuit with embroidered detail, has a round neck, long sleeves, snap button closure and attached booties",450,400,"women4.jpg"),
+
+("Muted Hazelnut Geometric Yoke Kurta Set",6,"This set includes: Kurta, Palazzos and Dupatta Chic yet understated, the Beige-ish Hazelnut colour pairs fabulously with the splash of vivid colors on the dupatta",399,299,"women5.jpg"),
+
+("Muted Hazelnut Geometric Yoke Kurta Set",6,"This set includes: Kurta, Palazzos and Dupatta Chic yet understated, the Beige-ish Hazelnut colour pairs fabulously with the splash of vivid colors on the dupatta.",499,399,"women6.jpg"),
+
+("Women Red Solid Bardot Top",6,"Red solid knitted bardot top, has an off-shoulder neck, and long sleeves",899,699,"women7.jpg"),
+
+("Beige & Maroon Printed Unstitched Lehenga & Blouse with Dupatta",6,"Beige lehenga choli Beige blouse,sleeveless Beige unstitchedlehenga,flaredhem"  ,1799,1699,"women8.jpg"),
+
+("Magenta Silk Blend Woven Design Banarasi Saree",6,"Magenta banarasi woven design saree and has a solid border Blouse Piece The model is wearing a stitched version of the blouse",1599,1399,"women9.jpg"),
+
+("Woman Black and Gold Printed Kurta Sets",6,"Black and Gold printed kurta with leggings Black and Gold A-line calf length kurta, has a round neck, three-quarter sleeves",599,499,"women10.jpg");
+
+
+
+
+
+
+
+

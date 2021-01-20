@@ -1,0 +1,1 @@
+insert into Product(productName,categoryMasterId,productDescription,regularPrice,cardHolderPrice,productImagePath) values("Realme LED Smart Android TV",3,"Bring home this TV from realme and experience the stunning visuals that result from its Chroma Boost Picture Engine.",14999,13999,"tv1.jpg");

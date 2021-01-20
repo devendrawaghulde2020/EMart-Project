@@ -1,0 +1,14 @@
+insert into CategoryMaster(categoryName,categoryId,ImagePath,Flag) values("Electronics","ELE","Electronics.jpg",0),("Apparels","APS","Apparels.jpg",0);
+
+
+insert into CategoryMaster(categoryName,categoryId,subCategoryName,subCategoryId,ImagePath,Flag) values
+("Electronics","ELE","TVs","TV","Tv.jpg",0),
+("Electronics","ELE","Cameras","CAM","camera.jpg",0),
+("Apparels","APS","MEN","MEN","Men.jpg",0),
+("Apparels","APS","WOMEN","WOMEN","Women.jpg",0),
+("Apparels","APS","CHILDREN","CHILDREN","Children.jpg",0);
+
+
+
+
+

@@ -1,0 +1,91 @@
+create database Emart_db;
+
+use  Emart_db;
+                                                   
+create  table User
+(
+userId int primary key auto_increment,
+firstName varchar(55),
+lastName varchar(55),
+customerPhone varchar(10),
+emailId varchar(55),
+password varchar(20),
+royalFlag tinyint
+);
+
+
+create table ShippingAddress
+(
+shippingAddressId int primary key auto_increment,
+address varchar(255),
+userId int,
+city varchar(55),
+state varchar(55),
+pincode varchar(6),
+country varchar(55),
+foreign key(userId) references User(userId) 
+);
+
+create table CategoryMaster
+(
+categoryMasterId int primary key auto_increment,
+categoryName varchar(55),
+categoryId varchar(55) ,
+subCategoryName varchar(55),
+subCategoryId varchar(55),
+ImagePath varchar(255),
+Flag tinyint
+);
+
+create table Product
+(
+productId int primary key auto_increment,
+productName varchar(255),
+categoryMasterId int,
+productDescription varchar(255),
+unitStock int,
+regularPrice decimal(7,2),
+cardHolderPrice decimal(7,2),
+ePoints int,
+productImagePath varchar(255),
+foreign key(categoryMasterId ) references CategoryMaster(categoryMasterId)
+);
+
+
+create table Orders
+(
+orderId int primary key auto_increment,
+amount decimal(7,2),
+orderDate date,
+userId int,
+shippingAddressId int,
+productId int,
+foreign key(userId) references User(userId),
+foreign key(shippingAddressId ) references ShippingAddress(shippingAddressId),
+foreign key(productId) references Product(productId)
+);
+
+
+create table Cart
+(
+cartId int primary key auto_increment,
+totalPrice decimal(7,2),
+productId int,
+userId int,
+foreign key(productId) references Product(productId),
+foreign key(userId) references User(userId)
+);
+
+create table Invoice 
+(
+inVoiceId int primary key auto_increment,
+userId int,
+cartId int,
+orderId int,
+shippingAddressId int,
+totalPrice decimal(7,2),
+foreign key(userId) references User(userId),
+foreign key(shippingAddressId ) references ShippingAddress(shippingAddressId),
+foreign key(cartId) references Cart(cartId),
+foreign key(orderId) references Orders(orderId)
+);
