@@ -1,18 +1,26 @@
 
 package com.Emart.Models;
 
+import java.io.Serializable;
+import java.util.List;
+import java.util.Set;
+
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
+import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
+import org.springframework.data.annotation.Transient;
+
 @Entity
-public class Product 
+public class Product implements Serializable
 {
 	private int productId;
 	private String productDescription;
@@ -21,10 +29,32 @@ public class Product
 	private int regularPrice;
 	private int cardHolderPrice;
 	private int epoints;
-	private CategoryMaster categoryMasterId;
+	private int categoryMasterId;
+	@ElementCollection
+	private List<CategoryMaster> categoryMaster;
 	private String productImagePath;
 	
 	
+	
+	 @OneToMany(fetch = FetchType.LAZY)
+	    @Transient
+		@JoinColumn(name = "categoryMasterId", referencedColumnName = "categoryMasterId", insertable = false, updatable = false)
+	public List<CategoryMaster> getCategoryMaster() {
+		return categoryMaster;
+	}
+
+	public void setCategoryMaster(List<CategoryMaster> categoryMaster) {
+		this.categoryMaster = categoryMaster;
+	}
+
+	public int getCategoryMasterId() {
+		return categoryMasterId;
+	}
+
+	public void setCategoryMasterId(int categoryMasterId) {
+		this.categoryMasterId = categoryMasterId;
+	}
+
 	/**
 	 * @return
 	 */
@@ -36,30 +66,14 @@ public class Product
 		this.productImagePath = productImagePath;
 	}
 
-	/**
-	 * @return the categoryMasterId
-	 */
 	
-	@OneToMany(targetEntity = CategoryMaster.class,cascade = CascadeType.ALL,fetch= FetchType.EAGER)
-	@JoinColumn(name = "categoryMasterId",referencedColumnName="productId")
-	@Column(name="categoryMasterId")
-	public CategoryMaster getCategoryMasterId() {
-		return categoryMasterId;
-	}
-
-	/**
-	 * @param categoryMasterId the categoryMasterId to set
-	 */
-	public void setCategoryMasterId(CategoryMaster categoryMasterId) {
-		this.categoryMasterId = categoryMasterId;
-	}
-
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	public int getProductId() {
 		return productId;
 	}
 	
+
 	public void setProductId(int productId) {
 		this.productId = productId;
 	}
@@ -98,14 +112,6 @@ public class Product
 	}
 	public void setEpoints(int epoints) {
 		this.epoints = epoints;
-	}
-
-	@Override
-	public String toString() {
-		return "Product [productId=" + productId + ", productDescription=" + productDescription + ", productName="
-				+ productName + ", unitStock=" + unitStock + ", regularPrice=" + regularPrice + ", cardHolderPrice="
-				+ cardHolderPrice + ", epoints=" + epoints + ", categoryMasterId=" + categoryMasterId
-				+ ", productImagePath=" + productImagePath + "]";
 	}
 
 }

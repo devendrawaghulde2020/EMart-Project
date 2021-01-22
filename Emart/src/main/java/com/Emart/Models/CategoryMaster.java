@@ -10,12 +10,18 @@ public class CategoryMaster
 {
 	private int categoryMasterId;
 	private String categoryName;
-	private int categoryId;
+	private String categoryId;
 	private String subCategoryName;
-	private int subCategoryId;
-	private String categoryImagePath;
-	private String subCategoryImagePath;
-	private boolean Flag;
+	private String subCategoryId;
+	private String ImagePath;
+	private int flag;
+	
+	public int getFlag() {
+		return flag;
+	}
+	public void setFlag(int flag) {
+		this.flag = flag;
+	}
 	/**
 	 * @return the categoryMasterId
 	 */
@@ -46,13 +52,13 @@ public class CategoryMaster
 	/**
 	 * @return the categoryId
 	 */
-	public int getCategoryId() {
+	public String getCategoryId() {
 		return categoryId;
 	}
 	/**
 	 * @param categoryId the categoryId to set
 	 */
-	public void setCategoryId(int categoryId) {
+	public void setCategoryId(String categoryId) {
 		this.categoryId = categoryId;
 	}
 	/**
@@ -70,59 +76,27 @@ public class CategoryMaster
 	/**
 	 * @return the subCategoryId
 	 */
-	public int getSubCategoryId() {
+	public String getSubCategoryId() {
 		return subCategoryId;
 	}
 	/**
 	 * @param subCategoryId the subCategoryId to set
 	 */
-	public void setSubCategoryId(int subCategoryId) {
+	public void setSubCategoryId(String subCategoryId) {
 		this.subCategoryId = subCategoryId;
 	}
-	/**
-	 * @return the categoryImagePath
-	 */
-	public String getCategoryImagePath() {
-		return categoryImagePath;
-	}
-	/**
-	 * @param categoryImagePath the categoryImagePath to set
-	 */
-	public void setCategoryImagePath(String categoryImagePath) {
-		this.categoryImagePath = categoryImagePath;
-	}
-	/**
-	 * @return the subCategoryImagePath
-	 */
-	public String getSubCategoryImagePath() {
-		return subCategoryImagePath;
-	}
-	/**
-	 * @param subCategoryImagePath the subCategoryImagePath to set
-	 */
-	public void setSubCategoryImagePath(String subCategoryImagePath) {
-		this.subCategoryImagePath = subCategoryImagePath;
-	}
-	/**
-	 * @return the flag
-	 */
-	public boolean isFlag() {
-		return Flag;
-	}
-	/* (non-Javadoc)
-	 * @see java.lang.Object#toString()
-	 */
 	@Override
 	public String toString() {
 		return "CategoryMaster [categoryMasterId=" + categoryMasterId + ", categoryName=" + categoryName
 				+ ", categoryId=" + categoryId + ", subCategoryName=" + subCategoryName + ", subCategoryId="
-				+ subCategoryId + ", categoryImagePath=" + categoryImagePath + ", subCategoryImagePath="
-				+ subCategoryImagePath + ", Flag=" + Flag + "]";
+				+ subCategoryId + ", ImagePath=" + ImagePath + ", flag=" + flag + "]";
 	}
-	/**
-	 * @param flag the flag to set
-	 */
-	public void setFlag(boolean flag) {
-		Flag = flag;
+	public String getImagePath() {
+		return ImagePath;
 	}
+	public void setImagePath(String imagePath) {
+		ImagePath = imagePath;
+	}
+	
+	
 }

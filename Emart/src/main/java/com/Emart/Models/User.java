@@ -19,9 +19,6 @@ import javax.persistence.Table;
 @Table(name = "User")
 public class User implements Serializable
 {
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 154446665656L;
 
 	private int userId;
@@ -29,19 +26,17 @@ public class User implements Serializable
 	private String firstName;
 	private String lastName;
 	private String customerPhone;
-	private String email_id;
+	private String emailId;
 	private String username;
 	private String password;
-	private boolean royalFlag;
+	private int royalFlag;
 	
 	@ElementCollection
 	private Set<ShippingAddress> shippingAddress;
 
 
-	@OneToMany(targetEntity = ShippingAddress.class,cascade = CascadeType.ALL,fetch= FetchType.EAGER)
-	@JoinColumn(name = "ShippingAddress",referencedColumnName="userId")
-	@Column(name="ShippingAddress")
-	
+	@OneToMany(targetEntity= ShippingAddress.class ,cascade = CascadeType.ALL,fetch= FetchType.EAGER)
+	@JoinColumn(name ="ShippingAddress", referencedColumnName="userId")
 	public Set<ShippingAddress> getShippingAddress()
 	{
 		return shippingAddress;
@@ -54,24 +49,21 @@ public class User implements Serializable
 	/**
 	 * @return the royalFlag
 	 */
-	public boolean isRoyalFlag() {
+	public int isRoyalFlag() {
 		return royalFlag;
 	}
 
 	/**
 	 * @param royalFlag the royalFlag to set
 	 */
-	public void setRoyalFlag(boolean royalFlag) {
+	public void setRoyalFlag(int royalFlag) {
 		this.royalFlag = royalFlag;
 	}
-	/* (non-Javadoc)
-	 * @see java.lang.Object#toString()
-	 */
 
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name = "USER_ID")
+	@Column(name = "UserId")
 	public int getUserId() {
 		return userId;
 	}
@@ -98,10 +90,10 @@ public class User implements Serializable
 		this.customerPhone = customerPhone;
 	}
 	public String getEmail_id() {
-		return email_id;
+		return emailId;
 	}
 	public void setEmail_id(String email_id) {
-		this.email_id = email_id;
+		this.emailId = email_id;
 	}
 	public String getUsername() {
 		return username;
@@ -119,7 +111,7 @@ public class User implements Serializable
 	@Override
 	public String toString() {
 		return "User [userId=" + userId + ", firstName=" + firstName + ", lastName=" + lastName + ", customerPhone="
-				+ customerPhone + ", email_id=" + email_id + ", username=" + username + ", password=" + password
+				+ customerPhone + ", email_id=" + emailId + ", username=" + username + ", password=" + password
 				+ ", royalFlag=" + royalFlag + ", shippingAddress=" + shippingAddress + "]";
 	}
   
